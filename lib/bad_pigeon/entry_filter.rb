@@ -16,7 +16,7 @@ module BadPigeon
            Component::EXTENDED_REPLY,
            Component::SOCIAL_CONTEXT,
            Component::SOCIAL_ACTIVITY,
-           Component::RANKED_FEED_TWEET
+           Component::RANKED_FEED_TWEET,
            Component::RESULT
            then true
 
