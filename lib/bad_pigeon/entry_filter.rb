@@ -17,6 +17,7 @@ module BadPigeon
            Component::SOCIAL_CONTEXT,
            Component::SOCIAL_ACTIVITY,
            Component::RANKED_FEED_TWEET
+           Component::RESULT
            then true
 
       when Component::PROMOTED_TWEET,

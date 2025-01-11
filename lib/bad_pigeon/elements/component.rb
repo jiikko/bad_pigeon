@@ -28,5 +28,7 @@ module BadPigeon
 
     # "Who to follow" block
     FOLLOW_SUGGESTIONS = "suggest_who_to_follow"
+
+    RESULT = "result"
   end
 end

@@ -7,6 +7,7 @@ module BadPigeon
     'HomeLatestTimeline' => HomeTimeline,
     'HomeTimeline' => HomeTimeline,
     'ListLatestTweetsTimeline' => ListTimeline,
+    'SearchTimeline' => SearchTimeline,
 
     # ignored requests:
     'AudioSpaceById' => nil,
