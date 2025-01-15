@@ -22,7 +22,7 @@ module BadPigeon
 
     def instructions
       @instructions ||= begin
-        list = @json.dig('data', 'search_by_raw_query', 'search_timeline', 'timeline', 'instructions') || []
+        list = @json['data']['search_by_raw_query']['search_timeline']['timeline']['instructions'] || []
         assert { list.all? { |i| EXPECTED_INSTRUCTIONS.include?(i['type']) } }
         list.map { |j| TimelineInstruction.new(j, self.class) }
       end
